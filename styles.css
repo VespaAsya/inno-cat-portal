@@ -34,11 +34,6 @@ p, h1, h2, h3 { margin-top: 0; }
 .button:hover { transform: translate(-2px, -2px); box-shadow: 5px 5px 0 var(--ink); }
 .button.primary { background: var(--lime); box-shadow: 3px 3px 0 var(--ink); }
 .text-link { display: inline-flex; padding-block: 8px; font-size: 14px; font-weight: 800; border-bottom: 1px solid var(--ink); }
-.quick-facts { margin-top: 48px; padding-top: 20px; display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--ink); }
-.quick-facts > div { display: flex; flex-direction: column; gap: 3px; }
-.quick-facts strong { font-size: 17px; }
-.quick-facts span { color: var(--muted); font-size: 10px; text-transform: uppercase; letter-spacing: .09em; }
-
 .bauhaus-poster { position: relative; min-height: 520px; overflow: hidden; border: 1px solid var(--ink); background: var(--cream-deep); }
 .shape { position: absolute; }
 .shape.circle { width: 300px; height: 300px; left: -90px; bottom: -70px; border-radius: 50%; background: var(--lime); }
@@ -101,9 +96,6 @@ p, h1, h2, h3 { margin-top: 0; }
   .hero h1 { font-size: clamp(50px, 16vw, 70px); }
   .hero-lead { font-size: 16px; }
   .hero-actions { align-items: stretch; flex-direction: column; gap: 14px; }
-  .quick-facts { gap: 10px; margin-top: 36px; }
-  .quick-facts strong { font-size: 14px; }
-  .quick-facts span { font-size: 8px; }
   .bauhaus-poster { min-height: 390px; }
   .poster-number { left: 18px; font-size: 125px; }
   .poster-label { right: 36px; top: 118px; width: 170px; font-size: 30px; }
