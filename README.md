@@ -2,9 +2,9 @@
 
 Открытая статическая версия лендинга волонтёрского проекта Inno Cat.
 
-## Сайт
+## Публичный сайт
 
-[https://vespaasya.github.io/inno-cat-portal/](https://vespaasya.github.io/inno-cat-portal/)
+[https://inno-cat-lapopozhatiya.equal-thyme-1687.chatgpt.site/](https://inno-cat-lapopozhatiya.equal-thyme-1687.chatgpt.site/)
 
 ## Основные ссылки
 
@@ -13,3 +13,5 @@
 - [Основной сайт Inno Cat](https://innocats.ru/)
 
 Сайт не собирает данные самостоятельно: заявка открывается в Google Форме, связь с волонтёром — в Telegram.
+
+В репозитории хранится только безопасная публичная статическая версия. Закрытый кабинет координатора и серверная часть в открытый исходник не входят.
