@@ -44,20 +44,12 @@ p, h1, h2, h3 { margin-top: 0; }
 
 .bauhaus-poster { position: relative; min-height: 520px; overflow: hidden; border: 1px solid var(--ink); background: var(--cream-deep); }
 .shape { position: absolute; }
-.shape.circle { width: 330px; height: 330px; left: -90px; bottom: -70px; border-radius: 50%; background: var(--lime); }
-.shape.lavender { width: 52%; height: 180px; right: 0; top: 85px; background: var(--lavender); }
-.shape.sage { width: 68%; height: 110px; right: 0; bottom: 0; background: var(--sage); }
-.shape.black { width: 42px; height: 265px; right: 34px; top: 0; background: var(--ink); }
-.poster-number { position: absolute; z-index: 2; left: 28px; top: 14px; font-size: clamp(116px, 14vw, 190px); line-height: .9; letter-spacing: -.1em; font-weight: 800; }
-.poster-label { position: absolute; z-index: 3; right: 74px; top: 115px; text-align: right; font-size: clamp(28px, 3.8vw, 52px); line-height: .88; letter-spacing: -.06em; font-weight: 800; }
-.cat-sign { position: absolute; z-index: 4; left: 49%; bottom: 85px; width: 150px; height: 130px; border: 18px solid var(--ink); border-bottom-width: 26px; border-radius: 50% 50% 46% 46%; background: var(--cream); }
-.cat-sign::before, .cat-sign::after { content: ''; position: absolute; top: -62px; width: 0; height: 0; border-left: 37px solid transparent; border-right: 37px solid transparent; border-bottom: 76px solid var(--ink); }
-.cat-sign::before { left: -24px; transform: rotate(-10deg); }
-.cat-sign::after { right: -24px; transform: rotate(10deg); }
-.cat-sign i, .cat-sign b { position: absolute; z-index: 1; top: 42px; width: 11px; height: 11px; background: var(--ink); border-radius: 50%; }
-.cat-sign i { left: 30px; }
-.cat-sign b { right: 30px; }
-.cat-sign span { position: absolute; z-index: 1; left: 50%; top: 59px; transform: translateX(-50%); font-size: 24px; }
+.shape.circle { width: 300px; height: 300px; left: -90px; bottom: -70px; border-radius: 50%; background: var(--lime); }
+.shape.lavender { width: 58%; height: 200px; right: 0; top: 115px; background: var(--lavender); }
+.shape.sage { width: 60%; height: 125px; right: 0; bottom: 0; background: var(--sage); }
+.shape.black { width: 34px; height: 235px; right: 24px; top: 0; background: var(--ink); }
+.poster-number { position: absolute; z-index: 2; left: 28px; top: 24px; font-size: clamp(116px, 11vw, 160px); line-height: .9; letter-spacing: -.1em; font-weight: 800; }
+.poster-label { position: absolute; z-index: 3; right: 58px; top: 148px; width: 230px; text-align: right; font-size: clamp(26px, 3vw, 42px); line-height: .92; letter-spacing: -.055em; font-weight: 800; }
 
 .manifesto { background: var(--ink); color: var(--cream); }
 .manifesto-grid { min-height: 230px; display: grid; grid-template-columns: .5fr 1.5fr .5fr 1.5fr; align-items: center; gap: 26px; }
@@ -127,12 +119,11 @@ p, h1, h2, h3 { margin-top: 0; }
   .quick-facts span { font-size: 8px; }
   .bauhaus-poster { min-height: 390px; }
   .poster-number { left: 18px; font-size: 125px; }
-  .poster-label { right: 47px; top: 102px; font-size: 35px; }
+  .poster-label { right: 36px; top: 118px; width: 170px; font-size: 30px; }
   .shape.circle { width: 260px; height: 260px; left: -85px; }
-  .shape.lavender { top: 74px; height: 145px; }
-  .shape.sage { height: 82px; }
-  .shape.black { width: 28px; height: 210px; right: 20px; }
-  .cat-sign { left: 46%; bottom: 53px; transform: scale(.75); transform-origin: bottom left; }
+  .shape.lavender { width: 62%; top: 88px; height: 170px; }
+  .shape.sage { height: 105px; }
+  .shape.black { width: 24px; height: 205px; right: 16px; }
   .manifesto-grid { grid-template-columns: 1fr; gap: 8px; padding-block: 42px; }
   .manifesto-grid p { margin-top: 20px; }
   .how { padding-block: 76px; }
