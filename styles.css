@@ -59,6 +59,7 @@ p, h1, h2, h3 { margin-top: 0; }
 
 .signup { padding-block: 88px; background: var(--lavender); border-top: 1px solid var(--ink); border-bottom: 1px solid var(--ink); }
 .signup-grid { display: grid; grid-template-columns: minmax(0, .9fr) minmax(440px, 1.1fr); gap: clamp(64px, 8vw, 104px); align-items: center; }
+.signup-grid > * { min-width: 0; }
 .signup-copy { max-width: 520px; padding-block: 24px; }
 .signup-copy .kicker { color: #3d3454; }
 .signup h2 { margin-bottom: 30px; font-size: clamp(42px, 4.2vw, 56px); }
@@ -110,7 +111,7 @@ p, h1, h2, h3 { margin-top: 0; }
   .cat-photo-grid { margin-top: 42px; grid-template-columns: repeat(2, 1fr); gap: 8px; }
   .cat-photo-card figcaption { min-height: 42px; padding: 10px 12px; font-size: 14px; }
   .contact-card { padding: 28px 22px; box-shadow: 5px 5px 0 var(--ink); }
-  .contact-card h3 { font-size: 42px; }
+  .contact-card h3 { font-size: clamp(36px, 11vw, 42px); }
 }
 
 @media (prefers-reduced-motion: reduce) {
