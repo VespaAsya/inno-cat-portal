@@ -70,11 +70,10 @@ p, h1, h2, h3 { margin-top: 0; }
 .contact-card { padding: clamp(32px, 4vw, 48px); display: flex; flex-direction: column; border: 1px solid var(--ink); background: var(--white); box-shadow: 8px 8px 0 var(--ink); }
 .contact-card .kicker { margin-bottom: 18px; color: var(--sage); }
 .contact-card h3 { max-width: 470px; margin-bottom: 22px; font-size: clamp(36px, 3.5vw, 48px); line-height: 1; letter-spacing: -.05em; }
-.contact-card > p:not(.kicker):not(.form-footnote) { max-width: 480px; margin-bottom: 30px; color: var(--muted); font-size: 15px; line-height: 1.7; }
+.contact-card > p:not(.kicker) { max-width: 480px; margin-bottom: 30px; color: var(--muted); font-size: 15px; line-height: 1.7; }
 .contact-actions { display: grid; gap: 10px; }
 .submit { width: 100%; background: var(--ink); color: var(--white); }
 .volunteer { width: 100%; background: var(--lime); }
-.form-footnote { margin: 13px 0 0; text-align: center; color: var(--muted); font-size: 10px; }
 
 @media (max-width: 940px) {
   .hero { min-height: auto; grid-template-columns: 1fr; padding-top: 52px; }
