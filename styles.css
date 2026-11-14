@@ -40,7 +40,7 @@ p, h1, h2, h3 { margin-top: 0; }
 .shape.lavender { width: 58%; height: 200px; right: 0; top: 115px; background: var(--lavender); }
 .shape.sage { width: 60%; height: 125px; right: 0; bottom: 0; background: var(--sage); }
 .shape.black { width: 26px; height: 235px; right: 20px; top: 0; background: var(--ink); }
-.poster-number { position: absolute; z-index: 2; left: 28px; top: 24px; font-size: clamp(116px, 11vw, 160px); line-height: .9; letter-spacing: -.1em; font-weight: 800; }
+.poster-number { position: absolute; z-index: 2; left: 44px; top: 34px; font-size: clamp(180px, 14vw, 220px); line-height: .82; letter-spacing: -.07em; font-weight: 800; }
 .poster-label { position: absolute; z-index: 3; right: 84px; top: 148px; width: 220px; text-align: right; font-size: clamp(26px, 3vw, 42px); line-height: .92; letter-spacing: -.055em; font-weight: 800; }
 
 .how { padding-block: 72px; }
@@ -80,6 +80,7 @@ p, h1, h2, h3 { margin-top: 0; }
   .hero { min-height: auto; grid-template-columns: 1fr; padding-top: 52px; }
   .hero-copy { max-width: 720px; }
   .bauhaus-poster { min-height: 460px; }
+  .poster-number { left: 60px; top: 30px; font-size: 240px; }
   .signup-grid { grid-template-columns: 1fr; }
   .signup-copy { padding-block: 0; }
   .signup h2 { font-size: 54px; }
@@ -93,7 +94,7 @@ p, h1, h2, h3 { margin-top: 0; }
   .hero-lead { font-size: 16px; }
   .hero-actions { align-items: stretch; flex-direction: column; gap: 14px; }
   .bauhaus-poster { min-height: 390px; }
-  .poster-number { left: 18px; font-size: 125px; }
+  .poster-number { left: 22px; top: 22px; font-size: 150px; }
   .poster-label { right: 56px; top: 118px; width: 160px; font-size: 29px; }
   .shape.circle { width: 260px; height: 260px; left: -85px; }
   .shape.lavender { width: 62%; top: 88px; height: 170px; }
