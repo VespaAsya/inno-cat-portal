@@ -44,8 +44,7 @@ p, h1, h2, h3 { margin-top: 0; }
 .poster-label { position: absolute; z-index: 3; right: 84px; top: 148px; width: 220px; text-align: right; font-size: clamp(26px, 3vw, 42px); line-height: .92; letter-spacing: -.055em; font-weight: 800; }
 
 .how { padding-block: 72px; }
-.section-heading { display: grid; grid-template-columns: 1fr 3fr; align-items: start; margin-bottom: 40px; }
-.section-number { margin: 0; font-size: 13px; font-weight: 800; letter-spacing: .12em; }
+.section-heading { margin-bottom: 40px; }
 .section-heading .kicker { margin-bottom: 18px; color: var(--sage); }
 .section-heading h2 { font-size: clamp(44px, 4.8vw, 64px); }
 .steps { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--ink); border-left: 1px solid var(--ink); }
@@ -60,18 +59,14 @@ p, h1, h2, h3 { margin-top: 0; }
 
 .signup { padding-block: 105px; background: var(--lavender); border-top: 1px solid var(--ink); border-bottom: 1px solid var(--ink); }
 .signup-grid { display: grid; grid-template-columns: .9fr 1.1fr; gap: clamp(44px, 8vw, 110px); align-items: start; }
-.signup-copy .section-number { margin-bottom: 54px; }
 .signup-copy .kicker { color: #3d3454; }
 .signup h2 { margin-bottom: 28px; font-size: clamp(42px, 4.5vw, 58px); }
-.signup-copy > p:not(.kicker):not(.section-number) { max-width: 470px; font-size: 17px; line-height: 1.7; }
+.signup-copy > p:not(.kicker) { max-width: 470px; font-size: 17px; line-height: 1.7; }
 .cat-photo-grid { margin-top: 64px; display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; }
 .cat-photo-card { margin: 0; border: 1px solid var(--ink); background: var(--white); }
 .cat-photo-card img { width: 100%; aspect-ratio: 4 / 5; display: block; object-fit: cover; }
 .cat-photo-card figcaption { min-height: 48px; padding: 12px 14px; display: flex; align-items: center; border-top: 1px solid var(--ink); font-size: 15px; font-weight: 800; }
-.privacy-note { max-width: 460px; margin-top: 40px; padding-top: 18px; display: flex; gap: 10px; border-top: 1px solid rgba(42, 38, 34, .35); font-size: 12px; }
-.privacy-note p { margin: 0; }
-.contact-card { min-height: 560px; padding: clamp(28px, 4vw, 50px); display: flex; flex-direction: column; border: 1px solid var(--ink); background: var(--white); box-shadow: 9px 9px 0 var(--ink); }
-.form-index { margin-bottom: 74px; padding-bottom: 13px; border-bottom: 1px solid var(--ink); font-size: 10px; font-weight: 800; letter-spacing: .18em; }
+.contact-card { min-height: 500px; padding: clamp(28px, 4vw, 50px); display: flex; flex-direction: column; border: 1px solid var(--ink); background: var(--white); box-shadow: 9px 9px 0 var(--ink); }
 .contact-card .kicker { margin-bottom: 18px; color: var(--sage); }
 .contact-card h3 { max-width: 470px; margin-bottom: 22px; font-size: clamp(38px, 4.3vw, 58px); line-height: .98; letter-spacing: -.055em; }
 .contact-card > p:not(.kicker):not(.form-footnote) { max-width: 480px; margin-bottom: 42px; color: var(--muted); font-size: 15px; line-height: 1.7; }
@@ -85,9 +80,6 @@ p, h1, h2, h3 { margin-top: 0; }
   .hero-copy { max-width: 720px; }
   .bauhaus-poster { min-height: 460px; }
   .signup-grid { grid-template-columns: 1fr; }
-  .signup-copy { display: grid; grid-template-columns: 1fr 2fr; gap: 0 30px; }
-  .signup-copy .section-number { grid-row: 1 / 5; }
-  .signup-copy .kicker, .signup-copy h2, .signup-copy > p:not(.section-number), .privacy-note { grid-column: 2; }
   .signup h2 { font-size: 54px; }
   .cat-photo-grid { grid-template-columns: repeat(3, 1fr); }
 }
@@ -106,20 +98,16 @@ p, h1, h2, h3 { margin-top: 0; }
   .shape.sage { height: 105px; }
   .shape.black { width: 18px; height: 205px; right: 12px; }
   .how { padding-block: 54px; }
-  .section-heading { grid-template-columns: 38px 1fr; margin-bottom: 30px; }
+  .section-heading { margin-bottom: 30px; }
   .section-heading h2 { font-size: 44px; }
   .steps { grid-template-columns: 1fr; }
   .steps article { min-height: 150px; }
   .steps article > span { margin-bottom: 18px; }
   .signup { padding-block: 70px; }
-  .signup-copy { display: block; }
-  .signup-copy .section-number { margin-bottom: 44px; }
-  .signup-copy .kicker, .signup-copy h2, .signup-copy > p:not(.section-number), .privacy-note { grid-column: auto; }
   .signup h2 { font-size: 42px; }
   .cat-photo-grid { margin-top: 42px; grid-template-columns: repeat(2, 1fr); gap: 8px; }
   .cat-photo-card figcaption { min-height: 42px; padding: 10px 12px; font-size: 14px; }
-  .contact-card { min-height: 520px; padding: 26px 20px; box-shadow: 5px 5px 0 var(--ink); }
-  .form-index { margin-bottom: 52px; }
+  .contact-card { min-height: 480px; padding: 26px 20px; box-shadow: 5px 5px 0 var(--ink); }
   .contact-card h3 { font-size: 42px; }
 }
 
