@@ -67,6 +67,7 @@ p, h1, h2, h3 { margin-top: 0; }
 .cat-photo-grid { margin-top: 72px; display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
 .cat-photo-card { margin: 0; border: 1px solid var(--ink); background: var(--white); }
 .cat-photo-card img { width: 100%; aspect-ratio: 4 / 5; display: block; object-fit: cover; }
+.cat-photo-card img.myshka-photo { object-position: center top; }
 .cat-photo-card figcaption { min-height: 48px; padding: 12px 14px; display: flex; align-items: center; border-top: 1px solid var(--ink); font-size: 15px; font-weight: 800; }
 .contact-card { padding: clamp(32px, 4vw, 48px); display: flex; flex-direction: column; border: 1px solid var(--ink); background: var(--white); box-shadow: 8px 8px 0 var(--ink); }
 .contact-card .kicker { margin-bottom: 18px; color: var(--sage); }
